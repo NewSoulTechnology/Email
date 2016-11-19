@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Email</string>
+    <string name="app_send">写邮件</string>
+    <string name="caogao">草稿箱</string>
+    <string name="sended">已发送</string>
+    <string name="back">返回</string>
+    <string name="send">发送</string>
+    <string name="create_label">写邮件</string>
+    <string name="deleted">已删除</string>
+    <string name="user_name">收件人：</string>
+    <string name="create_type">抄送/密送：</string>
+    <string name="button_withdraw">取消</string>
+    <string name="button_sure">确定</string>
+</resources>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.email.MainActivity">
+    <item
+        android:id="@+id/chaogao"
+        android:orderInCategory="100"
+        android:title="@string/caogao"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sended"
+        android:orderInCategory="100"
+        android:title="@string/sended"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/deleted"
+        android:orderInCategory="100"
+        android:title="@string/deleted"
+        app:showAsAction="never" />
+</menu>

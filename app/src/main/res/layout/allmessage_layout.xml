@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:weightSum="1"
+        android:paddingTop="0dp">
+        <TextView
+            android:id="@+id/text_messge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_weight="0.64" />
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/turn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="转发"
+            android:textSize="25dp"
+            android:gravity="right|center"
+            android:background="#00000000"
+            android:paddingRight="20dp"
+            android:textColor="#ffffffff"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:text="主题："
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/subject" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E6E6FA" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="发件人："
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/comefrom"
+            android:layout_weight="3" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E6E6FA" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="时间："
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:gravity="center|left"
+            android:layout_height="match_parent"
+            android:id="@+id/time"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E6E6FA" />
+    <LinearLayout
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:scrollHorizontally="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
